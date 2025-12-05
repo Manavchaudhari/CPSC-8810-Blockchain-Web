@@ -1,11 +1,11 @@
-# Assignment 1 — Ethereum Data Structures & Proof-of-Inclusion
+# Assignment 1 - Ethereum Data Structures & Proof-of-Inclusion
 **Course:** CPSC 8810 — Blockchain & Web   
 **Description:**  
 This assignment implements a simplified Ethereum-style Modified Merkle Patricia Trie (MPT) and demonstrates how proof-of-inclusion (PoI) works for verifying transactions efficiently.
 
 ---
 
-## 🔍 Project Overview
+##  Project Overview
 The goal of this assignment was to design and implement key Ethereum data structures and use them to:
 
 - Build an MPT from a list of 42 transactions.
@@ -19,7 +19,7 @@ This project models how Ethereum light clients verify data without downloading t
 
 ---
 
-## 🧩 Key Components
+##  Key Components
 
 ### **1. RLP Serialization**
 - Converts integers, bytes, and lists into Ethereum’s compact Recursive Length Prefix format.
@@ -37,7 +37,7 @@ This project models how Ethereum light clients verify data without downloading t
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 ### **1. Build the Trie**
 ```bash
